@@ -29,10 +29,3 @@ $ docker images
 | docker-slim-empty-image  | latest             | 4149efe18f37       | 6 minutes ago      | 0B
 | app                      | latest             | 51a6377ad8ed       | 12 minutes ago     | 1.35GB
 
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
