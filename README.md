@@ -9,7 +9,7 @@ https://maelfabien.github.io/project/Streamlit/#
 
 docker build -f Dockerfile -t app:latest .
 
-docker run -p 8501:8501 app:latest
+docker run -p 8501:8501 app:latest    <--- working O.K.
 
   test with  dockerslim :
 
