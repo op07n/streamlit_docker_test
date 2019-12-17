@@ -22,7 +22,17 @@ tar -xvzf dist_linux.tar.gz
 docker run -p 8501:8501 app.slim:latest   <--- not working   ?????
 
 $ docker images
-REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
-app.slim                  latest              60fd3e0b2a63        5 minutes ago       198MB
-docker-slim-empty-image   latest              4149efe18f37        6 minutes ago       0B
-app                       latest              51a6377ad8ed        12 minutes ago      1.35GB
+
+| REPOSITORY               | TAG                | IMAGE ID           | CREATED            | SIZE
+| ------------------------ |:------------------:| ------------------:| ------------------:| ---------:|
+| app.slim                 | latest             | 60fd3e0b2a63       | 5 minutes ago      | 198MB
+| docker-slim-empty-image  | latest             | 4149efe18f37       | 6 minutes ago      | 0B
+| app                      | latest             | 51a6377ad8ed       | 12 minutes ago     | 1.35GB
+
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
